@@ -106,4 +106,18 @@ body {
     
 }
 
+.footer {
+    box-shadow: 0px -3px 17px rgba(0, 0, 0, 0.321);
+}
+
+.footer__design {
+ text-align: center;
+ padding: 12px;
+ color: #F2F0EB;
+ background-color:#3b1c1fa1;
+ font-size: 24px;
+ font-family: 'Bebas Neue', sans-serif;
+ font-weight: 400;
+}
+
 
