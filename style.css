@@ -22,7 +22,7 @@ body {
 
 .div {
     background-color: rgba(0, 0, 0, 0.564);
-    height: 330vmin;
+    height: auto;
     width: 193.8vh;
     position: absolute;
     display: inline-block;
