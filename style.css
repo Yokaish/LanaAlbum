@@ -7,12 +7,8 @@
 
 .image {
     border-radius: 16px;
-    min-width: 100px;
-    min-height: 100px;
     width: 500px;
     height: 500px;
-    position: absolute; top: 10px; right: 10px;
-    transform: translate(-46.5%, 22%);
  }
 
 body {
@@ -36,7 +32,7 @@ body {
 .content {
     padding:6% 15%;
     display: flex;
-    align-items: center;
+    align-items: top;
     justify-content: space-between;
 }
 
@@ -110,7 +106,4 @@ body {
     
 }
 
-.imageplace {
-    display: flex;
-    align-items: center;
-}
+
