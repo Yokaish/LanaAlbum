@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    border-radius: 16px;
+    min-width: 300px;
+    min-height: 300px;
+    width: 500px;
+    height: 500px;
+    position: absolute; top: 10px; right: 10px;
+    transform: translate(-46.5%, 22%);
+ }
+
+body {
+    height: 150vh;
+    box-sizing: border-box;
+    background-image: url(lanaback.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.div {
+    background-color: rgba(0, 0, 0, 0.564);
+    background-attachment: cover;
+    height: 180%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.content {
+    padding:6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content__ap {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content__title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F2F0EB;
+    font-size: 52px;
+   
+}
+
+.content__title2 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F2F0EB;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+
+}
+
+.paragraph {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #F2F0EB;
+    font-size: 30px;
+    
+}
+  
+.namealbum {
+    color: #F26671
+}
+
+.content__botton {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.content__link {
+    background-color: #4923263f;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #F2F0EB;
+    width: 360px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #F26671;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.content__link:hover {
+    background-color: #27272735;
+}
+
+
+.image2 {
+    width: 30px;
+    height: 30px;
+    
+}
+
+.imageplace {
+    display: flex;
+    align-items: center;
+}
