@@ -22,7 +22,7 @@ body {
 
 .div {
     background-color: rgba(0, 0, 0, 0.564);
-    min-height: 100vh;
+    height: auto;
     width: 193.8vh;
     position: absolute;
 }
